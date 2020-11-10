@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #4c4c4c
+    url("https://u.kanobu.ru/editor/images/80/da70cdef-565d-4aed-860c-568e691bfba5.jpg");
+  background-size: cover;
+  font-family: sans-serif;
+}
+header {
+  position: fixed;
+  top: 0;
+  color: #fff;
+  text-shadow: rgb(112, 112, 112) 0 0 10px;
+}
+.wrapper {
+  width: 850px;
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+video {
+  box-shadow: 0 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.speed {
+  border: 1px dotted #fff;
+  background: transparent;
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 1px 3px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.speed-bar {
+  width: 100%;
+  background: linear-gradient(-170deg, #ae2368 0%, #cf6e6e 100%);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  color: white;
+  height: 16.3%;
+}
